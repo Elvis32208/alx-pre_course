@@ -1,55 +1,133 @@
-# Don't track content of these folders
-
-node_modules/
-
-someOtherfoler/
+# -*- mode: gitignore; -*-
 
 
 
-
-
-# Compiled source #
-
-###################
-
-*.com
-
-*.class
-
-*.dll
-
-*.exe
-
-*.o
-
-*.so
+*~
 
 
 
-*.so
+\#*\#
 
 
 
-# Packages #
+/.emacs.desktop
 
-############
 
-# it's better to unpack these files and commit the raw source
 
-# git has its own built in compression methods
+/.emacs.desktop.lock
 
-*.7z
 
-*.dmg
 
-*.gz
+*.elc
 
-*.iso
 
-*.jar
 
-*.rar
+auto-save-list
 
-*.tar
 
-*.zip
+
+tramp
+
+
+
+.\#*
+
+
+
+# Org-mode
+
+
+
+.org-id-locations
+
+
+
+*_archive
+
+
+
+# flymake-mode
+
+
+
+*_flymake.*
+
+
+
+# eshell files
+
+
+
+/eshell/history
+
+
+
+/eshell/lastdir
+
+
+
+# elpa packages
+
+
+
+/elpa/
+
+
+
+# reftex files
+
+
+
+*.rel
+
+
+
+# AUCTeX auto folder
+
+
+
+/auto/
+
+
+
+# cask packages
+
+
+
+.cask/
+
+
+
+dist/
+
+
+
+# Flycheck
+
+
+
+flycheck_*.el
+
+
+
+# server auth directory
+
+
+
+/server/
+
+
+
+# projectiles files
+
+
+
+.projectile
+
+
+
+# directory configuration
+
+
+
+.dir-locals.el
